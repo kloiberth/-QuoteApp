@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+
+.card{
+  background-color: #fffbf4 ;
+  width: 19rem;
+ /*  height: 10rem; */
+  padding: .9rem .4rem .4rem .4rem;
+  border-radius: 4%;
+  border: 2px solid #e6e9ef;
+}
+
+.card p{
+  font-family: 'Bitter', serif;
+  text-align: start;
+  font-size: 15px;
+}
+
+.card h2{
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.button{
+  align-self: flex-end;
+  margin-bottom: .5rem;
+}
+
+.button button{
+  border: none;
+  border-radius: 50%;
+}
+
+.button i{
+  font-size: 30px;
+}
+
+@media screen and (min-width: 425px) {
+
+ .card{
+  width: 24rem;
+ } 
+}
+
+@media screen and (min-width: 768px) {
+
+  .card{
+    width: 27rem;
+  }
+
+  .card p{
+
+    font-size: 20px;
+  }
+  
+  .card h2{
+
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1124px) {
+
+  .card{
+    width: 30rem;
+  }
+
+  .card p{
+
+    font-size: 20px;
+  }
+  
+  .card h2{
+    
+    font-size: 20px;
+    margin-right: 1rem;
+  }
+
+  .button i{
+    font-size: 35px;
+  }
+}
