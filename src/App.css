@@ -47,6 +47,11 @@
 .button button{
   border: none;
   border-radius: 50%;
+  transition: transform .2s linear;
+}
+
+.button button:hover{
+  transform: scale(0.8);
 }
 
 .button i{
