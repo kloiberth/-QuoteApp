@@ -23,10 +23,9 @@
 .card{
   background-color: #fffbf4 ;
   width: 19rem;
- /*  height: 10rem; */
   padding: .9rem .4rem .4rem .4rem;
-  border-radius: 4%;
-  border: 2px solid #e6e9ef;
+  border-radius: 20px;
+  box-shadow: 4px 5px 9px #000000;
 }
 
 .card p{
